@@ -6,3 +6,4 @@ API Link: https://newsapi.org/
 
 - Android Studeio
 - Postman 
+- Chrome
