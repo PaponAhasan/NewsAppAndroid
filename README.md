@@ -1,3 +1,3 @@
 # NewsAppAndroid
 
-## API Link: https://newsapi.org/
+API Link: https://newsapi.org/
