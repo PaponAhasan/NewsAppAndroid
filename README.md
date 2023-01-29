@@ -6,4 +6,11 @@ API Link: https://newsapi.org/ | https://github.com/SauravKanchan/NewsAPI
 
 - Android Studeio
 - Postman 
-- Chrome Custome Tab
+- Chrome
+
+### Chrome Custome Tab
+
+- https://developer.chrome.com/docs/android/custom-tabs/integration-guide/ 
+- https://medium.com/google-developers/best-practices-for-custom-tabs-5700e55143ee
+- https://guides.codepath.com/android/Chrome-Custom-Tabs 
+- https://www.geeksforgeeks.org/how-to-use-custom-chrome-tabs-in-android/
