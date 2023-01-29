@@ -8,6 +8,14 @@ API Link: https://newsapi.org/ | https://github.com/SauravKanchan/NewsAPI
 - Postman 
 - Chrome
 
+### Using
+
+- Volley Library
+- RecycleView
+- Chrome Custome Tab
+- Glide Library
+
+
 ### Chrome Custome Tab
 
 - https://developer.chrome.com/docs/android/custom-tabs/integration-guide/ 
