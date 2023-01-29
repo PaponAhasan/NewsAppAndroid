@@ -6,4 +6,4 @@ API Link: https://newsapi.org/ | https://github.com/SauravKanchan/NewsAPI
 
 - Android Studeio
 - Postman 
-- Chrome
+- Chrome Custome Tab
