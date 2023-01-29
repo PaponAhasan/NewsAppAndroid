@@ -15,6 +15,7 @@ API Link: https://newsapi.org/ | https://github.com/SauravKanchan/NewsAPI
 - Chrome Custome Tab
 - Glide Library
 
+![NewsAppGif](https://user-images.githubusercontent.com/59710234/215332846-69bd0c41-1c13-4287-9f4f-861113d09b90.gif)
 
 ### Chrome Custome Tab
 
