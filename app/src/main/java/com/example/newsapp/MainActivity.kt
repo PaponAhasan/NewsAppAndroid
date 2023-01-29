@@ -17,13 +17,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        supportActionBar?.title = "Health News";
+
         val recyclerView = findViewById<RecyclerView>(R.id.newsRecyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        createNewsList()
-
         mNewsAdapter = NewsListAdapter(this)
         recyclerView.adapter = mNewsAdapter
+
+        createNewsList()
     }
 
     private fun createNewsList(){

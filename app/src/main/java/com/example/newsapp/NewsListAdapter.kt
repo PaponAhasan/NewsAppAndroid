@@ -2,6 +2,7 @@ package com.example.newsapp
 
 import android.content.Context
 import android.graphics.BitmapFactory
+import android.icu.text.SimpleDateFormat
 import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
@@ -28,7 +29,13 @@ class NewsListAdapter(private val context: Context) :
 
             newsTitle.text = newsItem.title
             newsDescription.text = newsItem.description
-            newsAuthorDate.text = "${newsItem.author} | ${newsItem.publishedAt}"
+
+            val originalFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'")
+            val date = originalFormat.parse(newsItem.publishedAt)
+            val newFormat = SimpleDateFormat("MMM dd, YYYY  HH:mm:ss")
+            val newDate = newFormat.format(date)
+
+            newsAuthorDate.text = "${newsItem.author} | $newDate"
 
             Glide.with(itemView.context)
                 .load(newsItem.urlToImage)
