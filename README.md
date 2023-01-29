@@ -1,6 +1,6 @@
 ## News App
 
-API Link: https://newsapi.org/
+API Link: https://newsapi.org/ | https://github.com/SauravKanchan/NewsAPI
 
 ### Tools 
 
